@@ -4,6 +4,8 @@ import IconHomeBotNav from './home.svg'
 import IconHomeActiveBotNav from './homeActive.svg'
 import IconOrderBotNav from './order.svg'
 import IconOrderActiveBotNav from './orderActive.svg'
+import IconTopUp from './topup.svg'
+import IconPoint from './point.svg'
 
 export {
   IconAccountBotNav,
@@ -11,5 +13,7 @@ export {
   IconHomeBotNav,
   IconHomeActiveBotNav,
   IconOrderBotNav,
-  IconOrderActiveBotNav
+  IconOrderActiveBotNav,
+  IconTopUp,
+  IconPoint
 }
