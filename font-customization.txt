@@ -1,0 +1,6 @@
+1. https://fonts.google.com/
+2. cari nama font yang diinginkan, lalu klik jika sudah ketemu fontnya
+3. klik Download Family
+4. jika sudah selesai download, ekstrak zip nya, lalu pindahkan isi font ke project kita:
+android - app - src - main - assets - fonts
+5. restart kembali dengan npm start dan npm run android
