@@ -12,6 +12,7 @@ import IconVIP from './vip.svg'
 import IconCarpet from './carpet.svg'
 import IconOnlyIron from './onlyIron.svg'
 import IconExpress from './express.svg'
+import IconOrderListActive from './orderListActive.svg'
 
 export {
   IconAccountBotNav,
@@ -27,5 +28,6 @@ export {
   IconVIP,
   IconCarpet,
   IconOnlyIron,
-  IconExpress
+  IconExpress,
+  IconOrderListActive
 }

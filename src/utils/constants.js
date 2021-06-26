@@ -1,3 +1,5 @@
 export const MAIN_COLOR = '#55CB95'
 export const DISABLED_COLOR = '#C8C8C8'
 export const SECONDARY_COLOR = '#E0F7EF'
+export const ORDER_LIST_BGCOLOR = '#F6F6F6'
+export const UNFINISHED_COLOR = '#FF4D00'

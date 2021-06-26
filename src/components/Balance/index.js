@@ -13,7 +13,7 @@ const Balance = () => {
           <Text style={styles.balanceValue}>Rp. 100.000</Text>
         </View>
         <View style={styles.text}>
-          <Text style={styles.pointLabel}>Laundry Point</Text>
+          <Text style={styles.pointLabel}>Laundry Point :</Text>
           <Text style={styles.pointValue}>100 points</Text>
         </View>
       </View>
@@ -46,7 +46,7 @@ const styles = StyleSheet.create({
     shadowOpacity: 0.29,
     shadowRadius: 4.65,
     elevation: 7,
-    marginTop: -windowHeight * 0.05,
+    marginTop: -windowHeight * 0.07,
     flexDirection: 'row'
   },
   text: {
