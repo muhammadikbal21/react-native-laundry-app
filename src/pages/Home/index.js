@@ -1,7 +1,7 @@
 import React from 'react'
 import { StyleSheet, Text, View, ImageBackground, Dimensions, Image } from 'react-native'
 import { ImageHeader, SplashLogo } from '../../assets/images'
-import { Balance } from '../../components'
+import { Balance, ButtonIcon } from '../../components'
 
 const Home = () => {
   return (
@@ -14,6 +14,17 @@ const Home = () => {
         </View>
       </ImageBackground>
       <Balance />
+      <View style={styles.service}>
+        <Text style={styles.serviceText}>Service Us</Text>
+        <View style={styles.serviceMenu}>
+          <ButtonIcon title="Kilogram" type="service" />
+          <ButtonIcon title="Pieces" type="service" />
+          <ButtonIcon title="VIP" type="service" />
+          <ButtonIcon title="Carpet" type="service" />
+          <ButtonIcon title="Only Iron" type="service" />
+          <ButtonIcon title="Express" type="service" />
+        </View>
+      </View>
     </View>
   )
 }
@@ -48,5 +59,19 @@ const styles = StyleSheet.create({
   username: {
     fontSize: 20,
     fontFamily: 'TitilliumWeb-Bold'
+  },
+  service: {
+    paddingLeft: 30,
+    paddingTop: 15
+  },
+  serviceText: {
+    fontSize: 18,
+    fontFamily: 'TitilliumWeb-Bold'
+  },
+  serviceMenu: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    marginTop: 12,
+    flexWrap: 'wrap'
   }
 })
